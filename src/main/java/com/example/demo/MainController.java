@@ -15,7 +15,7 @@ public class MainController {
 	@GetMapping({"", "/"})
 	public ResponseEntity<?> index(){
 		Map<String, Object> map = new HashMap<>();
-		map.put("id", "m002");
+		map.put("test", "11111111");
 		
 		return ResponseEntity.ok().body(map);
 	}
